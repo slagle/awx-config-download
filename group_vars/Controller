@@ -1,0 +1,14 @@
+Controller_pre_deployments:
+  - NetworkDeployment
+  - ControllerUpgradeInitDeployment
+  - UpdateDeployment
+  - ControllerDeployment
+  - SshHostPubKeyDeployment
+  - ControllerHostsDeployment
+  - ControllerSshKnownHostsDeployment
+  - ControllerAllNodesDeployment
+  - ControllerAllNodesValidationDeployment
+  - ControllerHostPrepDeployment
+  - ControllerArtifactsDeploy
+
+Controller_post_deployments:  [] 
